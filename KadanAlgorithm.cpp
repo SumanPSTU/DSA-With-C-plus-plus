@@ -16,9 +16,25 @@ void printSubarray(int *arr, int size){
     }
 }
 
+//maximum sum subarray in a array
+
+void maximumSubarrY(int* arr,int n){
+    int current  = 0;
+    int max = 0;
+    for (int i =0;i<n;i++) {
+        current+=arr[i];
+        if (max<current) max = current;
+        if (current<0){
+            max = 0;
+        }
+    }
+    cout<<max<<endl;
+}
+
 int main(){
-    int arr[5] = {1,2,3,4,5};
+    int arr[5] = {1,-2,3,4,5};
     printSubarray(arr,5);
+    maximumSubarrY(arr,5);
 
 
 

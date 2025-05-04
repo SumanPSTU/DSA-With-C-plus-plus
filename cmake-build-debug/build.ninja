@@ -79,6 +79,12 @@ build CMakeFiles/DSA_With_Cpp.dir/Codeforces.cpp.obj: CXX_COMPILER__DSA_With_Cpp
   OBJECT_DIR = CMakeFiles\DSA_With_Cpp.dir
   OBJECT_FILE_DIR = CMakeFiles\DSA_With_Cpp.dir
 
+build CMakeFiles/DSA_With_Cpp.dir/BruteForceAlgorithm.cpp.obj: CXX_COMPILER__DSA_With_Cpp_unscanned_Debug G$:/Codeforce$ Problem$ Solving/DSA$ With$ Cpp/BruteForceAlgorithm.cpp || cmake_object_order_depends_target_DSA_With_Cpp
+  DEP_FILE = CMakeFiles\DSA_With_Cpp.dir\BruteForceAlgorithm.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DSA_With_Cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\DSA_With_Cpp.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DSA_With_Cpp
@@ -87,7 +93,7 @@ build CMakeFiles/DSA_With_Cpp.dir/Codeforces.cpp.obj: CXX_COMPILER__DSA_With_Cpp
 #############################################
 # Link the executable DSA_With_Cpp.exe
 
-build DSA_With_Cpp.exe: CXX_EXECUTABLE_LINKER__DSA_With_Cpp_Debug CMakeFiles/DSA_With_Cpp.dir/main.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Arrays.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Vector.cpp.obj CMakeFiles/DSA_With_Cpp.dir/KadanAlgorithm.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Codeforces.cpp.obj
+build DSA_With_Cpp.exe: CXX_EXECUTABLE_LINKER__DSA_With_Cpp_Debug CMakeFiles/DSA_With_Cpp.dir/main.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Arrays.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Vector.cpp.obj CMakeFiles/DSA_With_Cpp.dir/KadanAlgorithm.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Codeforces.cpp.obj CMakeFiles/DSA_With_Cpp.dir/BruteForceAlgorithm.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DSA_With_Cpp.dir

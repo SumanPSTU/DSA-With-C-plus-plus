@@ -1,16 +1,13 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int n;
+    long long n;
     cin>>n;
-    int a,b,c=0;
-
-    for (int i = 0; i < n; ++i) {
-        cin>>a>>b;
-        if(abs(a-b)>=2)c++;
+    if (n%2==0){
+        cout<<(n/2)<<endl;
+    } else{
+        cout<<(-(n+1)/2)<<endl;
     }
-    cout<<c<<endl;
-
 
 
     return 0;

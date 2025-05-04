@@ -7,4 +7,5 @@ add_executable(DSA_With_Cpp main.cpp
         Arrays.cpp
         Vector.cpp
         KadanAlgorithm.cpp
-        Codeforces.cpp)
+        Codeforces.cpp
+        BruteForceAlgorithm.cpp)

@@ -3,9 +3,10 @@ project(DSA_With_Cpp)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(DSA_With_Cpp main.cpp
+add_executable(DSA_With_Cpp Others/main.cpp
         Arrays.cpp
-        Vector.cpp
-        KadanAlgorithm.cpp
+        Others/Vector.cpp
+        algorithm/KadanAlgorithm.cpp
         Codeforces.cpp
-        BruteForceAlgorithm.cpp)
+        algorithm/BruteForceAlgorithm.cpp
+        linkedlist/LinkedListImplementation.cpp)

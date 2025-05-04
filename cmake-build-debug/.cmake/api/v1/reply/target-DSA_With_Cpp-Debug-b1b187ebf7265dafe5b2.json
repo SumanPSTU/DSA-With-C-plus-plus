@@ -58,7 +58,8 @@
 				3,
 				4,
 				5,
-				6
+				6,
+				7
 			]
 		}
 	],
@@ -101,7 +102,8 @@
 				3,
 				4,
 				5,
-				6
+				6,
+				7
 			]
 		}
 	],
@@ -110,7 +112,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
+			"path" : "Others/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -122,13 +124,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Vector.cpp",
+			"path" : "Others/Vector.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "KadanAlgorithm.cpp",
+			"path" : "algorithm/KadanAlgorithm.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -140,13 +142,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "BruteForceAlgorithm.cpp",
+			"path" : "algorithm/BruteForceAlgorithm.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "LinkedListImplementation.cpp",
+			"path" : "linkedlist/LinkedListImplementation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Others/object.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

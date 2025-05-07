@@ -18,6 +18,8 @@ int main(){
     list.addFirst(110);
     list.insertAt(1,1110);
     list.insertAt(3,220);
+    list.removeFirst();
+    list.removeLast();
     list.display();
     print(list.length());
     print(list.isEmpty());

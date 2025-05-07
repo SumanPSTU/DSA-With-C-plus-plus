@@ -1,56 +1,34 @@
 #include <iostream>
 
-using namespace std;
-class Node{
-
+template<typename T>
+class Node {
 private:
-    Node* head;
-    Node* tail;
-private:
-    int val;
-    Node* next;
+    Node<T>* head;
+    Node<T>* tail;
+    Node<T>* next;
+    int size;
+    T val;
 public:
-    Node(){
-        head = tail = NULL;
+    Node<T>() {
+        this->head = NULL;
+        this->tail = NULL;
+        this->next = NULL;
+        this->size = 0;
     }
-    Node(int val){
+
+    Node<T>(T val) {
         this->val = val;
     }
 
-    void addFirst(int val){
-        Node* newNode = new Node(val);
-        if (head==NULL){
-            head = tail = newNode;
-        } else{
-            newNode->next = head;
-            head = newNode;
+    void addFirst(T val) {
+        Node<T> *node = new Node<T>(val);
+        if (head == NULL && tail == NULL) {
+            head = tail = node;
+        } else {
+            node->next = head;
+            head = node;
         }
+        size++;
     }
-    void addLast(int val){
-        Node* newNode = new Node(val);
-        if (head==NULL){
-            head = tail = newNode;
-        } else{
-            tail->next = newNode;
-            tail = newNode;
-        }
-    }
-    void printList(){
-        Node* temp = head;
-        while (temp!=NULL){
-            cout<<temp->val<<endl;
-            temp = temp->next;
-        }
-        cout<<"End"<<endl;
 
-    }
 };
-int main(){
-    Node node;
-    node.addFirst(34);
-    node.addFirst(45);
-    node.addFirst(89);
-    node.addLast(70);
-    node.printList();
-
-}

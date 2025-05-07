@@ -9,5 +9,7 @@ add_executable(DSA_With_Cpp Others/main.cpp
         algorithm/KadanAlgorithm.cpp
         Codeforces.cpp
         algorithm/BruteForceAlgorithm.cpp
-        linkedlist/LinkedListImplementation.cpp
-        Others/object.cpp)
+        Others/object.cpp
+        linkedlist/LinkedList.cpp
+        linkedlist/LinkedList.h
+)

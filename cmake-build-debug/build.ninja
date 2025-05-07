@@ -85,17 +85,17 @@ build CMakeFiles/DSA_With_Cpp.dir/algorithm/BruteForceAlgorithm.cpp.obj: CXX_COM
   OBJECT_DIR = CMakeFiles\DSA_With_Cpp.dir
   OBJECT_FILE_DIR = CMakeFiles\DSA_With_Cpp.dir\algorithm
 
-build CMakeFiles/DSA_With_Cpp.dir/linkedlist/LinkedListImplementation.cpp.obj: CXX_COMPILER__DSA_With_Cpp_unscanned_Debug G$:/Codeforce$ Problem$ Solving/DSA$ With$ Cpp/linkedlist/LinkedListImplementation.cpp || cmake_object_order_depends_target_DSA_With_Cpp
-  DEP_FILE = CMakeFiles\DSA_With_Cpp.dir\linkedlist\LinkedListImplementation.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\DSA_With_Cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\DSA_With_Cpp.dir\linkedlist
-
 build CMakeFiles/DSA_With_Cpp.dir/Others/object.cpp.obj: CXX_COMPILER__DSA_With_Cpp_unscanned_Debug G$:/Codeforce$ Problem$ Solving/DSA$ With$ Cpp/Others/object.cpp || cmake_object_order_depends_target_DSA_With_Cpp
   DEP_FILE = CMakeFiles\DSA_With_Cpp.dir\Others\object.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\DSA_With_Cpp.dir
   OBJECT_FILE_DIR = CMakeFiles\DSA_With_Cpp.dir\Others
+
+build CMakeFiles/DSA_With_Cpp.dir/linkedlist/LinkedList.cpp.obj: CXX_COMPILER__DSA_With_Cpp_unscanned_Debug G$:/Codeforce$ Problem$ Solving/DSA$ With$ Cpp/linkedlist/LinkedList.cpp || cmake_object_order_depends_target_DSA_With_Cpp
+  DEP_FILE = CMakeFiles\DSA_With_Cpp.dir\linkedlist\LinkedList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DSA_With_Cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\DSA_With_Cpp.dir\linkedlist
 
 
 # =============================================================================
@@ -105,7 +105,7 @@ build CMakeFiles/DSA_With_Cpp.dir/Others/object.cpp.obj: CXX_COMPILER__DSA_With_
 #############################################
 # Link the executable DSA_With_Cpp.exe
 
-build DSA_With_Cpp.exe: CXX_EXECUTABLE_LINKER__DSA_With_Cpp_Debug CMakeFiles/DSA_With_Cpp.dir/Others/main.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Arrays.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Others/Vector.cpp.obj CMakeFiles/DSA_With_Cpp.dir/algorithm/KadanAlgorithm.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Codeforces.cpp.obj CMakeFiles/DSA_With_Cpp.dir/algorithm/BruteForceAlgorithm.cpp.obj CMakeFiles/DSA_With_Cpp.dir/linkedlist/LinkedListImplementation.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Others/object.cpp.obj
+build DSA_With_Cpp.exe: CXX_EXECUTABLE_LINKER__DSA_With_Cpp_Debug CMakeFiles/DSA_With_Cpp.dir/Others/main.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Arrays.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Others/Vector.cpp.obj CMakeFiles/DSA_With_Cpp.dir/algorithm/KadanAlgorithm.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Codeforces.cpp.obj CMakeFiles/DSA_With_Cpp.dir/algorithm/BruteForceAlgorithm.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Others/object.cpp.obj CMakeFiles/DSA_With_Cpp.dir/linkedlist/LinkedList.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DSA_With_Cpp.dir

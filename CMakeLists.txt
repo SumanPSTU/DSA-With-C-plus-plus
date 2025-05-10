@@ -14,4 +14,5 @@ add_executable(DSA_With_Cpp Others/main.cpp
         linkedlist/LinkedList.h
         Pointer.cpp
         SearchAlgorithm/BinarySearch.cpp
+        SearchAlgorithm/RecursiveBinarySearch.cpp
 )

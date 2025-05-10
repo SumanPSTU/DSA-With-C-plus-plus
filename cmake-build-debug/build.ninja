@@ -109,6 +109,12 @@ build CMakeFiles/DSA_With_Cpp.dir/SearchAlgorithm/BinarySearch.cpp.obj: CXX_COMP
   OBJECT_DIR = CMakeFiles\DSA_With_Cpp.dir
   OBJECT_FILE_DIR = CMakeFiles\DSA_With_Cpp.dir\SearchAlgorithm
 
+build CMakeFiles/DSA_With_Cpp.dir/SearchAlgorithm/RecursiveBinarySearch.cpp.obj: CXX_COMPILER__DSA_With_Cpp_unscanned_Debug G$:/Codeforce$ Problem$ Solving/DSA$ With$ Cpp/SearchAlgorithm/RecursiveBinarySearch.cpp || cmake_object_order_depends_target_DSA_With_Cpp
+  DEP_FILE = CMakeFiles\DSA_With_Cpp.dir\SearchAlgorithm\RecursiveBinarySearch.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DSA_With_Cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\DSA_With_Cpp.dir\SearchAlgorithm
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DSA_With_Cpp
@@ -117,7 +123,7 @@ build CMakeFiles/DSA_With_Cpp.dir/SearchAlgorithm/BinarySearch.cpp.obj: CXX_COMP
 #############################################
 # Link the executable DSA_With_Cpp.exe
 
-build DSA_With_Cpp.exe: CXX_EXECUTABLE_LINKER__DSA_With_Cpp_Debug CMakeFiles/DSA_With_Cpp.dir/Others/main.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Arrays.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Others/Vector.cpp.obj CMakeFiles/DSA_With_Cpp.dir/algorithm/KadanAlgorithm.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Codeforces.cpp.obj CMakeFiles/DSA_With_Cpp.dir/algorithm/BruteForceAlgorithm.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Others/object.cpp.obj CMakeFiles/DSA_With_Cpp.dir/linkedlist/LinkedList.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Pointer.cpp.obj CMakeFiles/DSA_With_Cpp.dir/SearchAlgorithm/BinarySearch.cpp.obj
+build DSA_With_Cpp.exe: CXX_EXECUTABLE_LINKER__DSA_With_Cpp_Debug CMakeFiles/DSA_With_Cpp.dir/Others/main.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Arrays.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Others/Vector.cpp.obj CMakeFiles/DSA_With_Cpp.dir/algorithm/KadanAlgorithm.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Codeforces.cpp.obj CMakeFiles/DSA_With_Cpp.dir/algorithm/BruteForceAlgorithm.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Others/object.cpp.obj CMakeFiles/DSA_With_Cpp.dir/linkedlist/LinkedList.cpp.obj CMakeFiles/DSA_With_Cpp.dir/Pointer.cpp.obj CMakeFiles/DSA_With_Cpp.dir/SearchAlgorithm/BinarySearch.cpp.obj CMakeFiles/DSA_With_Cpp.dir/SearchAlgorithm/RecursiveBinarySearch.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DSA_With_Cpp.dir

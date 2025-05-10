@@ -61,7 +61,8 @@
 				6,
 				7,
 				9,
-				10
+				10,
+				11
 			]
 		}
 	],
@@ -107,7 +108,8 @@
 				6,
 				7,
 				9,
-				10
+				10,
+				11
 			]
 		},
 		{
@@ -183,6 +185,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "SearchAlgorithm/BinarySearch.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SearchAlgorithm/RecursiveBinarySearch.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

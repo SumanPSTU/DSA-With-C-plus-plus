@@ -1,18 +1,12 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 int main(){
-    int n ;
-    long long a,b;
-    cin>>n;
-    for (int i = 0; i < n; ++i) {
-        int t = 0;
-        cin>>a>>b;
-        while (a%b!=0){
-            a++;
-            t++;
-        }
-        cout<<t<<endl;
-    }
+   int a,b;
+   cin>>a>>b;
+    cout << "floor " << a << " / " << b << " = " << floor((double)a / b) << endl;
+    cout << "ceil " << a << " / " << b << " = " << ceil((double)a / b) << endl;
+    cout << "round " << a << " / " << b << " = " << round((double)a / b) << endl;
 
     return 0;
 }

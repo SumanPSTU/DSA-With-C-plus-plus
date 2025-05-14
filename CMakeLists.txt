@@ -15,4 +15,6 @@ add_executable(DSA_With_Cpp Others/main.cpp
         Pointer.cpp
         SearchAlgorithm/BinarySearch.cpp
         SearchAlgorithm/RecursiveBinarySearch.cpp
+        SearchAlgorithm/BubbleSort.cpp
+        SearchAlgorithm/BubbleSort.h
 )
